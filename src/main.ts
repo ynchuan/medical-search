@@ -1,6 +1,6 @@
 import { NestFactory } from '@nestjs/core'
 import { AppModule } from './app.module'
-import { dataSource } from './utils'
+import { dataSource } from './lib/utils'
 import 'module-alias/register'
 
 async function bootstrap() {

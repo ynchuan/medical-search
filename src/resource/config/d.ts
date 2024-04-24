@@ -4,6 +4,7 @@ export default [
     "prntCode": "100000",
     "name": "北京市",
     "admdvsLv": "1",
+    "total": "4407",
     "list": [
       {
         "code": "110101",
@@ -145,6 +146,7 @@ export default [
     "prntCode": "100000",
     "name": "天津市",
     "admdvsLv": "1",
+    "total": "2211",
     "list": [
       {
         "code": "120101",
@@ -314,6 +316,7 @@ export default [
     "prntCode": "100000",
     "name": "河北省",
     "admdvsLv": "1",
+    "total": "51306",
     "list": [
       {
         "code": "130100",
@@ -1902,6 +1905,7 @@ export default [
     "prntCode": "100000",
     "name": "山西省",
     "admdvsLv": "1",
+    "total": "28261",
     "list": [
       {
         "code": "140100",
@@ -2950,6 +2954,7 @@ export default [
     "prntCode": "100000",
     "name": "内蒙古自治区",
     "admdvsLv": "1",
+    "total": "11921",
     "list": [
       {
         "code": "150100",
@@ -3915,6 +3920,7 @@ export default [
     "prntCode": "100000",
     "name": "辽宁省",
     "admdvsLv": "1",
+    "total": "16995",
     "list": [
       {
         "code": "210100",
@@ -4938,6 +4944,7 @@ export default [
     "prntCode": "100000",
     "name": "吉林省",
     "admdvsLv": "1",
+    "total": "9570",
     "list": [
       {
         "code": "220100",
@@ -5677,6 +5684,7 @@ export default [
     "prntCode": "100000",
     "name": "黑龙江省",
     "admdvsLv": "1",
+    "total": "12060",
     "list": [
       {
         "code": "230100",
@@ -7191,6 +7199,7 @@ export default [
     "prntCode": "100000",
     "name": "上海市",
     "admdvsLv": "1",
+    "total": "2841",
     "list": [
       {
         "code": "310101",
@@ -7325,6 +7334,7 @@ export default [
     "prntCode": "100000",
     "name": "江苏省",
     "admdvsLv": "1",
+    "total": "24508",
     "list": [
       {
         "code": "320100",
@@ -8368,6 +8378,7 @@ export default [
     "prntCode": "100000",
     "name": "浙江省",
     "admdvsLv": "1",
+    "total": "12009",
     "list": [
       {
         "code": "330100",
@@ -9262,6 +9273,7 @@ export default [
     "prntCode": "100000",
     "name": "安徽省",
     "admdvsLv": "1",
+    "total": "23037",
     "list": [
       {
         "code": "340100",
@@ -10364,6 +10376,7 @@ export default [
     "prntCode": "100000",
     "name": "福建省",
     "admdvsLv": "1",
+    "total": "16238",
     "list": [
       {
         "code": "350100",
@@ -11165,6 +11178,7 @@ export default [
     "prntCode": "100000",
     "name": "江西省",
     "admdvsLv": "1",
+    "total": "24372",
     "list": [
       {
         "code": "360100",
@@ -12157,6 +12171,7 @@ export default [
     "prntCode": "100000",
     "name": "山东省",
     "admdvsLv": "1",
+    "total": "56444",
     "list": [
       {
         "code": "370100",
@@ -13729,6 +13744,7 @@ export default [
     "prntCode": "100000",
     "name": "河南省",
     "admdvsLv": "1",
+    "total": "61338",
     "list": [
       {
         "code": "410100",
@@ -15435,6 +15451,7 @@ export default [
     "prntCode": "100000",
     "name": "湖北省",
     "admdvsLv": "1",
+    "total": "32177",
     "list": [
       {
         "code": "420100",
@@ -16485,6 +16502,7 @@ export default [
     "prntCode": "100000",
     "name": "湖南省",
     "admdvsLv": "1",
+    "total": "41516",
     "list": [
       {
         "code": "430100",
@@ -17704,6 +17722,7 @@ export default [
     "prntCode": "100000",
     "name": "广东省",
     "admdvsLv": "1",
+    "total": "17302",
     "list": [
       {
         "code": "440100",
@@ -19434,6 +19453,7 @@ export default [
     "prntCode": "100000",
     "name": "广西壮族自治区",
     "admdvsLv": "1",
+    "total": "18120",
     "list": [
       {
         "code": "450100",
@@ -20534,6 +20554,7 @@ export default [
     "prntCode": "100000",
     "name": "海南省",
     "admdvsLv": "1",
+    "total": "3277",
     "list": [
       {
         "code": "460100",
@@ -20769,6 +20790,7 @@ export default [
     "prntCode": "100000",
     "name": "重庆市",
     "admdvsLv": "1",
+    "total": "18563",
     "list": [
       {
         "code": "500101",
@@ -21078,6 +21100,7 @@ export default [
     "prntCode": "100000",
     "name": "四川省",
     "admdvsLv": "1",
+    "total": "24808",
     "list": [
       {
         "code": "510100",
@@ -22815,6 +22838,7 @@ export default [
     "prntCode": "100000",
     "name": "贵州省",
     "admdvsLv": "1",
+    "total": "23930",
     "list": [
       {
         "code": "520100",
@@ -23666,6 +23690,7 @@ export default [
     "prntCode": "100000",
     "name": "云南省",
     "admdvsLv": "1",
+    "total": "18618",
     "list": [
       {
         "code": "530100",
@@ -24894,6 +24919,7 @@ export default [
     "prntCode": "100000",
     "name": "西藏自治区",
     "admdvsLv": "1",
+    "total": "2503",
     "list": [
       {
         "code": "540100",
@@ -25567,6 +25593,7 @@ export default [
     "prntCode": "100000",
     "name": "陕西省",
     "admdvsLv": "1",
+    "total": "25033",
     "list": [
       {
         "code": "610100",
@@ -26609,6 +26636,7 @@ export default [
     "prntCode": "100000",
     "name": "甘肃省",
     "admdvsLv": "1",
+    "total": "21509",
     "list": [
       {
         "code": "620100",
@@ -27457,6 +27485,7 @@ export default [
     "prntCode": "100000",
     "name": "青海省",
     "admdvsLv": "1",
+    "total": "4186",
     "list": [
       {
         "code": "630100",
@@ -27942,6 +27971,7 @@ export default [
     "prntCode": "100000",
     "name": "宁夏回族自治区",
     "admdvsLv": "1",
+    "total": "1783",
     "list": [
       {
         "code": "640100",
@@ -28193,6 +28223,7 @@ export default [
     "prntCode": "100000",
     "name": "新疆维吾尔自治区",
     "admdvsLv": "1",
+    "total": "3705",
     "list": [
       {
         "code": "650100",
@@ -29133,6 +29164,7 @@ export default [
     "prntCode": "100000",
     "name": "新疆生产建设兵团",
     "admdvsLv": "1",
+    "total": "533",
     "list": [
       {
         "code": "660100",
@@ -30415,6 +30447,7 @@ export default [
     "prntCode": "100000",
     "name": "台湾省",
     "admdvsLv": "1",
+    "total": "0",
     "list": []
   },
   {
@@ -30422,6 +30455,7 @@ export default [
     "prntCode": "100000",
     "name": "香港特别行政区",
     "admdvsLv": "1",
+    "total": "0",
     "list": []
   },
   {
@@ -30429,6 +30463,7 @@ export default [
     "prntCode": "100000",
     "name": "澳门特别行政区",
     "admdvsLv": "1",
+    "total": "0",
     "list": []
   },
   {
@@ -30436,6 +30471,7 @@ export default [
     "prntCode": "100000",
     "name": "中国人民解放军部队",
     "admdvsLv": "1",
+    "total": "0",
     "list": []
   },
   {
@@ -30443,6 +30479,7 @@ export default [
     "prntCode": "100000",
     "name": "中国人民武装警察部队",
     "admdvsLv": "1",
+    "total": "0",
     "list": []
   }
 ]

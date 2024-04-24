@@ -4,7 +4,8 @@ export const HOSP_ACLAZZ = 'https://ybj.beijing.gov.cn/2020_zwfw/2020_bmcx/20200
 export const HOSP_FIRST_VISIT = 'https://ybj.beijing.gov.cn/2020_zwfw/2020_bmcx/202004/t20200409_1798868.html'
 export const DRAG = 'https://fw.ybj.beijing.gov.cn/drug/druginfo/phoneDrugList'
 export const DRAG_DETAIL = 'https://fw.ybj.beijing.gov.cn/drug/druginfo/phoneFingDrugById?id=1'
-export const HOSP_NHSA = 'https://fuwu.nhsa.gov.cn/ebus/fuwu/api/nthl/api/CommQuery/queryFixedHospital'
+
+export const BJ_MEDINS_INFO = 'https://fw.ybj.beijing.gov.cn/hsa-local-prd/api/hsa-pss-pw/web/pw/base/queryFixedMedinsInfo'
 
 export const NHSA_QUERYLOCALOPTINS = 'https://fuwu.nhsa.gov.cn/ebus/fuwu/api/nthl/api/CommQuery/queryLocalOptins'
 export const NHSA_QUERYFIXEDHOSPITAL = 'https://fuwu.nhsa.gov.cn/ebus/fuwu/api/nthl/api/CommQuery/queryFixedHospital'

@@ -8,11 +8,14 @@
       "type": "node",
       "name": "Launch via NPM",
       "request": "launch",
-      "runtimeExecutable": "npm",
+      "runtimeExecutable": "pnpm",
       "runtimeArgs": [
         "run",
         "start:dev"
       ],
+      "env": {
+        "DEBUG": "MS-*"
+      },
       "skipFiles": [
         "<node_internals>/**"
       ]

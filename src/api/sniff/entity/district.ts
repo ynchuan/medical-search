@@ -1,6 +1,6 @@
 import { Entity, PrimaryGeneratedColumn, Column } from "typeorm"
 
-@Entity()
+@Entity({ comment: "全国行政区划" })
 export class District {
   @PrimaryGeneratedColumn()
   id: number
