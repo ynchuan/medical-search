@@ -12,8 +12,8 @@ export const config: DataSourceOptions = {
   password: "root",
   database: "medical_search",
   synchronize: true,
-  logging: true,
-  // logging: ['error', 'warn'],
+  // logging: true,
+  logging: ['error', 'warn'],
   entities: [entitiy1, entitiy2],
   subscribers: [],
   migrations: [__dirname + "/migration/*{.js,.ts}"], // 字段标记加载的迁移文件有哪些

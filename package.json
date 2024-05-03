@@ -36,6 +36,7 @@
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1",
     "sm-crypto": "^0.3.13",
+    "tesseract.js": "^5.0.5",
     "typeorm": "^0.3.20"
   },
   "devDependencies": {
