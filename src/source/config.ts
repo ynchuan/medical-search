@@ -4,12 +4,16 @@ import { resolve } from "path"
 const entitiy1 = resolve(__dirname, '../api/**/*.entity{.js,.ts}')
 const entitiy2 = resolve(__dirname, '../api/**/entity/*{.js,.ts}')
 
+const { MYSQL_USERNAME, MYSQL_PASSWORD, MYSQL_ADDRESS = "" } = process.env;
+
+const [host, port] = MYSQL_ADDRESS?.split(":");
+
 export const config: DataSourceOptions = {
   type: "mysql",
-  host: "localhost",
-  port: 3306,
-  username: "root",
-  password: "root",
+  host: host || "localhost",
+  port: port || 3306,
+  username: MYSQL_USERNAME || "root",
+  password: MYSQL_PASSWORD || "root",
   database: "medical_search",
   synchronize: true,
   // logging: true,
