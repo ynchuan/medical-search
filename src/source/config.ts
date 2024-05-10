@@ -6,12 +6,12 @@ const entitiy2 = resolve(__dirname, '../api/**/entity/*{.js,.ts}')
 
 const { MYSQL_USERNAME, MYSQL_PASSWORD, MYSQL_ADDRESS = "" } = process.env;
 
-const [host, port] = MYSQL_ADDRESS?.split(":");
+const [host, port] = MYSQL_ADDRESS.split(":");
 
 export const config: DataSourceOptions = {
   type: "mysql",
   host: host || "localhost",
-  port: port || 3306,
+  port: Number(port) || 3306,
   username: MYSQL_USERNAME || "root",
   password: MYSQL_PASSWORD || "root",
   database: "medical_search",
