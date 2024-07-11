@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React CDN Demo with JSX</title>
+  </head>
+  <body>
+    <!-- React 应用的挂载点 -->
+    <div id="app"></div>
+
+    <!-- Babel 用于编译 JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- React 和 ReactDOM 的 CDN 链接 -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@17/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+    ></script>
+
+    <!-- React 应用的脚本 -->
+    <script type="text/babel">
+      const { useState, useEffect } = React;
+
+      const HelloMessage = (props) => {
+        return (
+          <div>
+            <h1>Hello, {props.name}!</h1>
+          </div>
+        );
+      };
+
+      const GroupCount = () => {
+        const [group, setGroup] = useState(1000);
+        const [count, setCount] = useState(0);
+
+        useEffect(() => {
+          console.log('useEffect goup > count: ', group, count);
+        }, []);
+
+        const ret = (
+          <div>
+            <div onClick={() => setGroup(group + 100)}> Group </div>
+            <div onClick={() => setCount(count + 1)}>Count</div>
+            <HelloMessage name="World" />
+          </div>
+        );
+
+        console.log('App goup > count > node:', group, count, ' \n', ret);
+
+        return ret;
+      };
+      debugger;
+      ReactDOM.render(<GroupCount />, document.getElementById('app'));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+  <body>
+    <div id="root"></div>
+  </body>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react?dev",
+        "react-dom/client": "https://esm.sh/react-dom/client?dev"
+      }
+    }
+  </script>
+  <script type="text/babel" data-type="module">
+    import React, { useState, useEffect } from 'react';
+    import { createRoot } from 'react-dom/client';
+
+    const user = {
+      name: 'Hedy Lamarr',
+      imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
+      imageSize: 90,
+    };
+
+    const App = () => {
+      const [group, setGroup] = useState(1000);
+      const [count, setCount] = useState(0);
+
+      useEffect(() => {
+        console.log('useEffect goup > count', group, count);
+      }, []);
+
+      const ret = (
+        <div>
+          <div onClick={() => setGroup(group + 100)}> Group </div>
+          <div onClick={() => setCount(count + 1)}>Count</div>
+        </div>
+      );
+
+      console.log('App goup > count > node', group, count, ret);
+
+      return ret;
+    };
+
+    const root = createRoot(document.getElementById('root'));
+    root.render(<App />);
+  </script>
+  
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+      padding: 0;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 22px;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 20px;
+    }
+
+    h3 {
+      margin-top: 0;
+      font-size: 18px;
+    }
+
+    h4 {
+      margin-top: 0;
+      font-size: 16px;
+    }
+
+    h5 {
+      margin-top: 0;
+      font-size: 14px;
+    }
+
+    h6 {
+      margin-top: 0;
+      font-size: 12px;
+    }
+
+    code {
+      font-size: 1.2em;
+    }
+
+    ul {
+      padding-inline-start: 20px;
+    }
+
+    .avatar {
+      border-radius: 50%;
+    }
+
+    .large {
+      border: 4px solid gold;
+    }
+  </style>
+</html>
